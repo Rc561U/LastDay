@@ -2,9 +2,14 @@
 
 
 ```shell
-docker-compose up
+docker-compose up -d
 ```
 
 ```shell
 docker-compose exec vue-app bash
+```
+
+## !Update this line 
+```shell
+"dev": "vite --host 0.0.0.0",
 ```
